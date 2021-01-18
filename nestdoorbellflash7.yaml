@@ -3,7 +3,7 @@ blueprint:
   description: >
      PLEASE WORK
   domain: automation
-  source_url: https://github.com/WACOMalt/homeassistantblueprints/blob/master/nestdoorbellflash7.yml
+  source_url: https://github.com/WACOMalt/homeassistantblueprints/blob/master/nestdoorbellflash7.yaml
   input:
     activated:
         name: Activated

@@ -10,7 +10,8 @@ blueprint:
         description: "Toggle to activate or deactivate flashing lights."
         selector:
             device:
-                domain: nest
+                entity:
+                    domain: nest
     target_lights:
         name: Lights
         description: "To flashing lights"

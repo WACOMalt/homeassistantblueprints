@@ -9,7 +9,12 @@ blueprint:
         name: Activated
         description: "Toggle to activate or deactivate flashing lights."
         selector:
-            type: doorbell_chime
+            device:
+              integration: Nest
+              manufacturer: Google Nest
+              model: Doorbell
+              entity:
+                domain: nest
     target_lights:
         name: Lights
         description: "To flashing lights"
